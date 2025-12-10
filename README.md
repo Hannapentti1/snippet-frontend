@@ -9,8 +9,7 @@ This project was created for the **Fullstack course – Project 3**.
 
 ## 🚀 Live Site
 
-(Deploy URL will be added here)
-
+[https://snippet-frontend-1.onrender.com]
 ---
 
 ## 🔗 Backend API
