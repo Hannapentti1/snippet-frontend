@@ -1,16 +1,23 @@
 import SnippetCard from "./SnippetCard";
 
-function SnippetList({ snippets, onDelete }) {
-  if (!snippets.length) return <p>No snippets available.</p>;
-
+function SnippetList({ snippets }) {
   return (
     <div>
       {snippets.map((snippet) => (
-        <SnippetCard key={snippet._id} snippet={snippet} onDelete={onDelete} />
+        <SnippetCard
+          key={snippet.id || snippet._id}
+          snippet={snippet}
+        />
       ))}
     </div>
   );
 }
 
 export default SnippetList;
+
+
+
+
+
+
 
